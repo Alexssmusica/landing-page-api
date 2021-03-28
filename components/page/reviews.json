@@ -1,27 +1,27 @@
 {
-  "collectionName": "components_page_section_about_projects",
+  "collectionName": "components_page_reviews",
   "info": {
-    "name": "sectionAboutProject",
-    "icon": "info"
+    "name": "reviews",
+    "icon": "ad"
   },
   "options": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "richtext",
+    "text": {
+      "type": "text",
       "required": true
     },
-    "image": {
+    "photo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     }
   }
 }
