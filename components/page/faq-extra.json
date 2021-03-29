@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_faq_extras",
+  "info": {
+    "name": "faqExtra",
+    "icon": "book-medical"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "information": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
