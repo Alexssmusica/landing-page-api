@@ -75,6 +75,11 @@
       "repeatable": false,
       "component": "page.section-faq",
       "required": true
+    },
+    "sectionFooter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-footer"
     }
   }
 }

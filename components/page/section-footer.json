@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_section_footers",
+  "info": {
+    "name": "sectionFooter",
+    "icon": "backspace"
+  },
+  "options": {},
+  "attributes": {
+    "footer": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
